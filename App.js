@@ -1,9 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
-import Color from './Constraint/Color';
-import Images from './Constraint/Images';
 import { useFonts } from 'expo-font';
-import { SIZES, FONTS } from './Constraint/Themes';
 import { StatusBar } from 'react-native';
+import Index from './Navigation/Index';
 
 export default function App() {
 
@@ -25,9 +23,12 @@ export default function App() {
     return null;
   }
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle="light-content"/>
-    </View>
+    <>
+     <StatusBar barStyle="light-content"/>
+      <Index/>
+    </>
+     
+   
   );
 }
 

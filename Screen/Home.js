@@ -1,15 +1,17 @@
-import { View, Text } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Color from '../Constraint/Color';
 import Images from '../Constraint/Images';
 import { SIZES, FONTS } from '../Constraint/Themes';
 
-const Login = () => {
+const Home = () => {
   return (
     <View>
-      <Text>Login</Text>
+      <Text>Home</Text>
     </View>
   )
 }
 
-export default Login
+export default Home
+
+const styles = StyleSheet.create({})
